@@ -6,5 +6,21 @@
     <link>
     http://nikamanish.co</link>
     
+      
+      <item>
+        <title>Group by vs Index by</title>
+        
+          <description>&lt;p&gt;Ruby on Rails provides us with a lot of &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; methods. So many, that it is
+sometimes confusing, as to what to use when.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 05 Jul 2019 01:30:00 +0530</pubDate>
+        <link>
+        http://nikamanish.co/rails/group-by-vs-index-by/</link>
+        <guid isPermaLink="true">http://nikamanish.co/rails/group-by-vs-index-by/</guid>
+      </item>
+      
+    
   </channel>
 </rss>
