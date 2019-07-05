@@ -11,7 +11,7 @@
 
 
 
-    <title>About</title>
+    <title>Rails - Manish Nikam</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -36,31 +36,28 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="All of what I know" />
     <link rel="shortcut icon" href="http://nikamanish.co/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="http://nikamanish.co/about/" />
+    <link rel="canonical" href="http://nikamanish.co/tag/rails/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Manish Nikam" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="About" />
-    <meta property="og:description" content="### Hi. I am Manish Nikam I am a full-stack application developer, an avid learner and a decent gamer. ### Technology ###### Past I have worked on a lot of different technologies when I was in college. This includes **Android application development**, **web-apps** along with other things. I have also" />
-    <meta property="og:url" content="http://nikamanish.co/about/" />
+    <meta property="og:title" content="Rails - Manish Nikam" />
+    <meta property="og:description" content="All of what I know" />
+    <meta property="og:url" content="http://nikamanish.co/tag/rails/" />
     <meta property="og:image" content="http://nikamanish.co/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/nikamanish" />
-    <meta property="article:author" content="https://www.facebook.com/nikamanish" />
-    <meta property="article:published_time" content="" />
-    <meta property="article:modified_time" content="" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="### Hi. I am Manish Nikam I am a full-stack application developer, an avid learner and a decent gamer. ### Technology ###### Past I have worked on a lot of different technologies when I was in college. This includes **Android application development**, **web-apps** along with other things. I have also" />
+    <meta name="twitter:title" content="Rails - Manish Nikam" />
+    <meta name="twitter:description" content="All of what I know" />
     <meta name="twitter:url" content="http://nikamanish.co/" />
     <meta name="twitter:image" content="http://nikamanish.co/assets/images/blog-cover.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Manish Nikam" />
     <meta name="twitter:site" content="@nikamanish" />
     <meta name="twitter:creator" content="@nikamanish" />
-    <meta property="og:image:width" content="1400" />
-    <meta property="og:image:height" content="933" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
 
     <script type="application/ld+json">
 {
@@ -71,7 +68,7 @@
         "name": "Manish Nikam",
         "logo": "http://nikamanish.co/"
     },
-    "url": "http://nikamanish.co/about/",
+    "url": "http://nikamanish.co/tag/rails/",
     "image": {
         "@type": "ImageObject",
         "url": "http://nikamanish.co/assets/images/blog-cover.jpg",
@@ -80,9 +77,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://nikamanish.co/about/"
+        "@id": "http://nikamanish.co/tag/rails/"
     },
-    "description": "### Hi. I am Manish Nikam I am a full-stack application developer, an avid learner and a decent gamer. ### Technology ###### Past I have worked on a lot of different technologies when I was in college. This includes **Android application development**, **web-apps** along with other things. I have also"
+    "description": "All of what I know"
 }
     </script>
 
@@ -95,20 +92,23 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="About" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Tag Page" href="/feed.xml" />
 
 
 </head>
-<body class="page-template">
+<body class="tag-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default -->
-<!-- The tag above means: insert everything in this file
-into the {body} of the default.hbs template -->
+        <!-- default -->
+<!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer">
+<!-- #tag -->
+<!-- dynamically loading backgrounds for tags,  descriptions and page titles -->
+
+
+<header class="site-header outer no-cover">
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
@@ -140,95 +140,79 @@ into the {body} of the default.hbs template -->
     </div>
 </nav>
 
+        <div class="site-header-content">
+            <h1 class="site-title">Rails</h1>
+            <h2 class="site-description">
+                
+    			    A collection of 1 posts
+                
+            </h2>
+        </div>
     </div>
 </header>
+<!-- tag -->
 
-<!-- Everything inside the #post tags pulls data from the post -->
-<!-- #post -->
-
+<!-- The main content area -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
-
-        <article class="post-full post page no-image">
-
-            <header class="post-full-header">
-                <h1 class="post-full-title">About</h1>
-            </header>
-
+        <div class="post-feed">
+            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             
 
-            <section class="post-full-content">
-                <h3 id="hi-i-am-manish-nikam">Hi. I am Manish Nikam</h3>
 
-<p>I am a full-stack application developer, an avid learner and a decent gamer.</p>
+    <article class="post-card tag-template">
+        
+            <a class="post-card-image-link" href="/rails/group-by-vs-index-by/">
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/group-by-vs-index-by.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/rails/group-by-vs-index-by/">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Rails</span>
+                            
+                        
+                    
 
-<hr />
+                    <h2 class="post-card-title">Group by vs Index by</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>Ruby on Rails provides us with a lot of Array methods. So many, that it is
+sometimes confusing, as to what to use when.
 
-<h3 id="technology">Technology</h3>
-
-<p><br /></p>
-<h6 id="past">Past</h6>
-
-<p>I have worked on a lot of different technologies when I was in college. This includes <strong>Android application development</strong>, <strong>web-apps</strong> along with other things.</p>
-
-<p>I have also developed games using <strong>C++ Graphics Library</strong>, <strong>Blender Game Engine</strong> and <strong>Unity 3D</strong>.</p>
-
-<p>Here’s a quick overview of all the tech I know!</p>
-
-<p><img style="border-radius: 15px" src="/assets/images/past.png" /></p>
-
-<h6 id="present">Present</h6>
-
-<p>I work primarily on <strong>Ruby on Rails</strong> and <strong>ReactJS</strong> along with other front-end technologies like <strong>Redux</strong>, <strong>jQuery</strong> and <strong>Bootstrap</strong>.</p>
-
-<p>I design UI/UX and develop graphics related to them. I majorly make use of the very underrated <strong>PowerPoint</strong> (😲), to develop the said designs &amp; graphics.</p>
-
-<p>Take a look!</p>
-
-<div style="display: flex; flex-wrap: wrap;">
-    &lt;img class='round-corners' width: 250px;" height='250px' src='/assets/images/face.jpg' /&gt;
-    <img class="round-corners" style="border-radius: 15px" height="250px" src="/assets/images/setup.jpg" />
-</div>
-
-<h6 id="future">Future</h6>
-
-<p>I have started working in the DevOps field, majorly Docker &amp; Kubernetes.</p>
-
-<p>Looking forward to contribute to the open-source community.</p>
-
-<hr />
-
-<h3 id="gaming">Gaming</h3>
-
-<p>I majorly play <strong>CS:GO</strong> &amp; <strong>Pokémon GO</strong>.</p>
-
-<h6 id="csgo">CS:GO</h6>
-
-<p>My in-game alias is <strong><em>Cortana</em></strong>. My rank is <strong>Gold Nova Master</strong> and I am an <strong>AWPER</strong>. I have good rifle skills, and know the spray control of major weapons like the <strong>AK</strong> and both the <strong>M4s</strong>.</p>
-
-<h6 id="pokémon-go">Pokémon GO</h6>
-
-<p>I am an <strong>L33 Mystic</strong> trainer. I am a returning player, stopped playing in March 2017, and joined back again in February 2019.
-My trainer code is: <strong>0610 3512 3930</strong>, if you want to be friend in-game or otherwise.</p>
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/manish.jpg" alt="Manish Nikam" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/manish/">Manish Nikam</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
 
 
-            </section>
-
-        </article>
-
+        </div>
     </div>
 </main>
-
-<!-- /post -->
-
-<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
-<script>
-$(function() {
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-});
-</script>
-
 
 
         <!-- Previous/next page links - displayed on every page -->
@@ -272,7 +256,7 @@ $(function() {
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('');
+        var maxPages = parseInt('1');
     </script>
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
@@ -295,14 +279,6 @@ $(function() {
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
-    
-        <script>
-$(function() {
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-});
-</script>
-
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
