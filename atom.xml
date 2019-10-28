@@ -8,6 +8,22 @@
     
       
       <item>
+        <title>A backtracking solution to the Magic Square problem</title>
+        
+          <description>&lt;p&gt;Recursion can be daunting to many developers, novice and experienced alike. But
+certain problems can be solved quite easily using recursive algorithms.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 28 Oct 2019 01:30:00 +0530</pubDate>
+        <link>
+        http://nikamanish.co/ruby/recursive-backtracking-solution-to-magic-square/</link>
+        <guid isPermaLink="true">http://nikamanish.co/ruby/recursive-backtracking-solution-to-magic-square/</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Group by vs Index by</title>
         
           <description>&lt;p&gt;Ruby on Rails provides us with a lot of &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; methods. So many, that it is
